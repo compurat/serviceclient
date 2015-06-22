@@ -9,6 +9,7 @@ import java.lang.annotation.Target;
  * Created by compurat on 21-6-15.
  */
 @Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
 public @interface ConnectionName {
     String connectionName();
 
